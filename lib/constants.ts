@@ -93,6 +93,8 @@ export const MARKET_OVERVIEW_WIDGET_CONFIG = {
     height: 600, // height in px
     showSymbolLogo: true, // show logo next to symbols
     showChart: true, // display mini chart
+    // disable_scroll: false,
+    // disable_scrollbar: false,
 };
 
 export const HEATMAP_WIDGET_CONFIG = {
@@ -112,6 +114,8 @@ export const HEATMAP_WIDGET_CONFIG = {
     isMonoSize: false,
     width: '100%',
     height: '600',
+    disable_scroll: false,
+    disable_scrollbar: false,
 };
 
 export const TOP_STORIES_WIDGET_CONFIG = {

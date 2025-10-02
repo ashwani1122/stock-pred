@@ -25,6 +25,7 @@ const NavItems = ({initialStocks}: { initialStocks: StockWithWatchlistStatus[]})
                             initialStocks={initialStocks}
                         />
                     </li>
+                    
                 )
 
                 return <li key={href}>
